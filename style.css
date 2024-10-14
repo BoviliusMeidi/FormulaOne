@@ -1,0 +1,32 @@
+/* Navbar Custom Styling */
+.navbar {
+  background-color: #e10600; /* Red header */
+}
+
+/* Dropdown Menu Custom Styling */
+.navbar-nav .dropdown-menu {
+  position: absolute; /* Makes the dropdown appear below the navbar */
+  top: 100%; /* Position it directly below the navbar */
+  left: 0; /* Align it with the left edge of the dropdown */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Optional: Add margin to dropdown items if needed */
+.dropdown-item {
+  background-color: #ffcc00; /* Yellow background for items */
+}
+
+.dropdown-item:hover {
+  background-color: #ff9900; /* Darker yellow on hover */
+}
+
+/* Custom dropdown hover effect */
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+/* Optional: To make dropdown items stand out */
+.dropdown-item:hover {
+  background-color: #ff9900;
+}
